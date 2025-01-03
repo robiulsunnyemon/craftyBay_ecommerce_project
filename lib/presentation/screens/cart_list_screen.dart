@@ -26,8 +26,8 @@ class CartListScreen extends StatelessWidget {
                 child: ListView.builder(
                   itemCount: 55,
                   itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
+                  return const Padding(
+                    padding: EdgeInsets.all(8.0),
                     child: CartProductItem(),
                   );
                 },
@@ -46,8 +46,8 @@ class CartListScreen extends StatelessWidget {
               decoration: BoxDecoration(
                 color: AppColors.primaryColor.withOpacity(.1),
                 borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(15),
-                  topRight: Radius.circular(15),
+                  topLeft: Radius.circular(30),
+                  topRight: Radius.circular(30),
                 )
               ),
               child: Row(

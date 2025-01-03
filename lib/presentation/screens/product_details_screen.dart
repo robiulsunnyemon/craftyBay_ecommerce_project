@@ -100,8 +100,8 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
       decoration: BoxDecoration(
           color: AppColors.primaryColor.withOpacity(.1),
           borderRadius: const BorderRadius.only(
-            topLeft: Radius.circular(15),
-            topRight: Radius.circular(15),
+            topLeft: Radius.circular(30),
+            topRight: Radius.circular(30),
           )
       ),
       child: Row(
