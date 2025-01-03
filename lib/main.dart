@@ -6,5 +6,5 @@ import 'presentation/state_holders/bottom_nav_controller.dart';
 
 void main() {
   Get.lazyPut<BottomNavController>(() => BottomNavController());
-  runApp( DhakaShop());
+  runApp( CraftyBay());
 }

@@ -3,6 +3,7 @@ import 'package:dhakashop/presentation/utility/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../state_holders/bottom_nav_controller.dart';
+import 'cart_list_screen.dart';
 import 'categories_list_screen.dart';
 import 'wish_list_screen.dart';
 
@@ -13,7 +14,7 @@ class MainBottomNavBar extends StatelessWidget {
   final List<Widget> screen = [
     const HomeScreen(),
     const CategoriesListScreen(),
-    const Center(child: Text('Profile Page')),
+          CartListScreen(),
     const WishListScreen(),
   ];
 

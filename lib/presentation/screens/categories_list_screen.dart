@@ -15,7 +15,7 @@ class CategoriesListScreen extends StatelessWidget {
       body: PopScope(
         canPop: false,
         onPopInvokedWithResult:(didPop, result) {
-          Get.find<BottomNavController>().backToHome;
+          Get.find<BottomNavController>().backToHome(0);
         } ,
         child: Padding(
           padding: const EdgeInsets.all(8),
