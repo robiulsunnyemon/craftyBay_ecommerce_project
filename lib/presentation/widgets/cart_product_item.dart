@@ -1,3 +1,4 @@
+import 'package:dhakashop/presentation/widgets/counting_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -6,13 +7,12 @@ import '../utility/app_colors.dart';
 import '../utility/assets_path.dart';
 
 class CartProductItem extends StatelessWidget {
-  CartProductItem({
+  const CartProductItem({
     super.key,
   });
-  final BottomNavController _controller = Get.find<BottomNavController>();
+
   @override
   Widget build(BuildContext context) {
-    var productNumber = _controller.productCartNumber;
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -30,7 +30,8 @@ class CartProductItem extends StatelessWidget {
                 child: Column(
               children: [
                 _buildCartNameHeadingPart(),
-                _buildCartPriceCountingPart(productNumber)
+                const SizedBox(height: 15,),
+                _buildCartPriceCountingPart(),
               ],
             ))
           ],
@@ -39,65 +40,16 @@ class CartProductItem extends StatelessWidget {
     );
   }
 
-  Widget _buildCartPriceCountingPart(RxInt productNumber) {
-    return Row(
+  Widget _buildCartPriceCountingPart() {
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text(
+        Text(
           "\$100",
           style: TextStyle(
               color: AppColors.primaryColor, fontWeight: FontWeight.w600),
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            InkWell(
-              onTap: () {
-                _controller.decrementCartProduct();
-              },
-              child: Container(
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(4),
-                    color: AppColors.primaryColor),
-                child: const Center(
-                    child: Icon(
-                  Icons.remove,
-                  color: Colors.white,
-                  size: 20,
-                )),
-              ),
-            ),
-            const SizedBox(
-              width: 10,
-            ),
-            Obx(
-              () => Text(
-                "$productNumber",
-                style: const TextStyle(
-                    fontWeight: FontWeight.bold, color: Colors.black54),
-              ),
-            ),
-            const SizedBox(
-              width: 10,
-            ),
-            InkWell(
-              onTap: () {
-                _controller.incrementCartProduct();
-              },
-              child: Container(
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(4),
-                    color: AppColors.primaryColor),
-                child: const Center(
-                    child: Icon(
-                  Icons.add,
-                  color: Colors.white,
-                  size: 20,
-                )),
-              ),
-            ),
-          ],
-        )
+        CountingItemWidget(),
       ],
     );
   }
