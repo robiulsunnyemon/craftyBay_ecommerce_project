@@ -1,5 +1,5 @@
-import 'package:dhakashop/presentation/screens/otp_verification_screen.dart';
-import 'package:dhakashop/presentation/utility/assets_path.dart';
+import 'package:craftybay/presentation/screens/otp_verification_screen.dart';
+import 'package:craftybay/presentation/utility/assets_path.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';

@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:dhakashop/presentation/utility/assets_path.dart';
+import 'package:craftybay/presentation/utility/assets_path.dart';
 import 'package:flutter/material.dart';
 import '../utility/app_colors.dart';
 import 'counting_item.dart';

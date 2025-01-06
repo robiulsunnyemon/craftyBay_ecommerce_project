@@ -1,9 +1,9 @@
-import 'package:dhakashop/data/models/network_response.dart';
-import 'package:dhakashop/data/network_caller/network_caller.dart';
-import 'package:dhakashop/data/utility/urls.dart';
+import 'package:craftybay/data/models/network_response.dart';
+import 'package:craftybay/data/network_caller/network_caller.dart';
+import 'package:craftybay/data/utility/urls.dart';
 import 'package:get/get.dart%20';
 
-import '../models/slider_list_model.dart';
+import '../../data/models/slider_list_model.dart';
 
 class HomeSliderController extends GetxController{
   bool _isProgress=false;

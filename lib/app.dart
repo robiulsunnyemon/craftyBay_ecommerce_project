@@ -1,9 +1,9 @@
-import 'package:dhakashop/controller_binder.dart';
-import 'package:dhakashop/presentation/screens/email_verification_screen.dart';
-import 'package:dhakashop/presentation/screens/home_screen.dart';
-import 'package:dhakashop/presentation/screens/main_bottom_navbar_screen.dart';
-import 'package:dhakashop/presentation/screens/splash_screen.dart';
-import 'package:dhakashop/presentation/utility/app_colors.dart';
+import 'package:craftybay/controller_binder.dart';
+import 'package:craftybay/presentation/screens/email_verification_screen.dart';
+import 'package:craftybay/presentation/screens/home_screen.dart';
+import 'package:craftybay/presentation/screens/main_bottom_navbar_screen.dart';
+import 'package:craftybay/presentation/screens/splash_screen.dart';
+import 'package:craftybay/presentation/utility/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

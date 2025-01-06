@@ -1,4 +1,4 @@
-import 'package:dhakashop/presentation/widgets/product_card.dart';
+import 'package:craftybay/presentation/widgets/product_card.dart';
 import 'package:flutter/material.dart';
 
 class ProductsListScreen extends StatelessWidget {

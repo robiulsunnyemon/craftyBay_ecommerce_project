@@ -1,4 +1,4 @@
-import 'package:dhakashop/presentation/widgets/counting_item.dart';
+import 'package:craftybay/presentation/widgets/counting_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

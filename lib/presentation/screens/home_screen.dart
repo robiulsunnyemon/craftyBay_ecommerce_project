@@ -1,6 +1,6 @@
-import 'package:dhakashop/presentation/utility/app_colors.dart';
-import 'package:dhakashop/presentation/utility/assets_path.dart';
-import 'package:dhakashop/presentation/widgets/navbar_action_button.dart';
+import 'package:craftybay/presentation/utility/app_colors.dart';
+import 'package:craftybay/presentation/utility/assets_path.dart';
+import 'package:craftybay/presentation/widgets/navbar_action_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../widgets/category_card_item.dart';
