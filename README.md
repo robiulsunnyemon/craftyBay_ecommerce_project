@@ -29,4 +29,4 @@ A modern and fully-featured e-commerce mobile application built with **Flutter**
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/robiulsunnyemon/ecommerce-app.git
+   git clone https://github.com/robiulsunnyemon/craftyBay_ecommerce_project.git
