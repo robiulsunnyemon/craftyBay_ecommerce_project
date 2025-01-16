@@ -1,16 +1,35 @@
-# craftybay
+# E-Commerce App
 
-A new Flutter project.
+A modern and fully-featured e-commerce mobile application built with **Flutter**. This app provides an interactive user interface, smooth navigation, and features to enhance the online shopping experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User authentication (Sign up, Login, Logout)
+- Browse products by categories
+- Product search and filtering
+- Add products to the cart
+- Checkout and order placement
+- View order history
+- Responsive and modern UI
+- Integrated with RESTful API for backend functionality
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Home Page
+![Home Page](link-to-screenshot-home)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Product Page
+![Product Page](link-to-screenshot-product)
+
+## Technologies Used
+
+- **Flutter** (Frontend)
+- **Dart** (Programming Language)
+- **GetX** (State Management)
+- **REST API** (Backend Integration)
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/robiulsunnyemon/ecommerce-app.git
